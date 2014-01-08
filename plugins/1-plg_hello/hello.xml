@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <!-- $Id:  -->
+ <extension version="3.0" type="plugin" group="content" method="upgrade">
+        <name>plg_hello</name>
+        <creationDate>Sept 2013</creationDate>
+        <author>Marc STUDER</author>
+        <authorEmail>mon_mail@editions-eni.fr</authorEmail>
+        <authorUrl>http://www.editions-eni.fr</authorUrl>
+        <copyright>Copyright Info</copyright>
+        <license>License Info</license>
+        <version>1.0.0</version>
+        <description>1er plugin hello dans un article</description>
+ 
+        <files>
+                <filename plugin="hello">hello.php</filename>
+                <filename>index.html</filename>
+        </files>
+ 
+        <config>
+                <fields name="params"> 
+                        <fieldset name="basic">
+                                <field name="hello-message" type="spacer"
+                                        label="Votre message"
+                                />
+ 
+                                <field name="hello-text" type="text"
+                                        description="explication ..."
+                                        label="message" />
+
+                                <field name="hello-colour" type="list"
+                                        description="choississez la couleur du texte"
+                                        label="Couleur"
+                                >
+                                        <option value="red">Rouge</option>
+                                        <option value="green">Vert</option>
+                                        <option value="blue">Bleu</option>
+                                </field>
+ 
+                        </fieldset>
+ 
+                </fields>
+        </config>
+ </extension>
