@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>mod_simple1</name>
+	<creationDate>Sept 2013</creationDate>
+	<author>Marc STUDER</author>
+	<authorEmail>mon_mail@editions-eni.fr</authorEmail>
+	<authorUrl>http://www.editions-eni.fr</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<version>1.0.0</version>
+	<description>Mon 1er module</description>
+	<files>
+		<filename module="mod_simple1">mod_simple1.php</filename>
+	</files>
+</extesion>

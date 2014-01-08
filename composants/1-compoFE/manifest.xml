@@ -2,7 +2,7 @@
 <extension type="component" version="3.0" method="upgrade">
  
 	<name>Support</name>
-	<creationDate>Décembre 2013</creationDate>
+	<creationDate>Septembre 2013</creationDate>
 	<author>Marc STUDER</author>
 	<authorEmail>mon_mail@editions-eni.fr</authorEmail>
 	<authorUrl>http://www.editions-eni.fr</authorUrl>
@@ -36,20 +36,5 @@
 		<folder>models</folder>
 	</files>
 
-	<administration>
-		<!-- Administration Menu Section -->
-		<menu>Gestion de tickets de support</menu>
-		<!-- Administration Main File Copy Section -->
-		<files folder="admin">
-				<filename>index.html</filename>
-				<filename>support.php</filename>
-				<filename>controller.php</filename>
-				<folder>controllers</folder>
-				<folder>helpers</folder>
-				<folder>models</folder>
-				<folder>sql</folder>
-				<folder>tables</folder>
-				<folder>views</folder>
-		</files>                
-	</administration>
+	<administration />
 </extension>
