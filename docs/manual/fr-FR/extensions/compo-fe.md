@@ -1,4 +1,4 @@
-JSupport
+Composants Frontend
 ========
 
-Extensions Joomla 3.x liées au contenu du Livre de l'éditeur ENI
+Explications sur les différentes moutures des composants Frontend JSupport ...
