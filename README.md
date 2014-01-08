@@ -1,5 +1,5 @@
 ### Contexte de JSupport
-Le projet JSupport est un lot d'extensions lié au livre xxxxxxxx aux éditions xxxxxx.
+Le projet *JSupport* est un lot d'extensions lié au livre xxxxxxxx aux éditions xxxxxx.
 Vous pouvez télécharger sur Github tous les sources des extensions présentées dans ce livre.
 
 Le code des extensions de ce référentiel inclues l'implémentation des classes principales du Joomla!Platform :
@@ -13,10 +13,16 @@ Afin de vous familiariser avec la méthode la plus propres pour développer des 
 
 ### Liste des extensions de JSupport
 JSupport propose un Panel complet des extensions Joomla (composants, modules, plugins ...).
-Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extensions, puis dézippez le afin de ne re-zipper que chacun des sous-dossiers souhaités :
+
+Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extensions, puis dézippez le afin de ne re-zipper que chacun des sous-dossiers souhaités
+
+Option        | Description
+------------- | ----------------
+ZIP           | tous les dossiers des extensions
+
 
 #### Composants
-- `/JSupport/composants/1-compoFE` : pour utiliser le 1er composant FrontEnd simple
+- `/JSupport/composants/1-compoFE` : pour utiliser le 1er [composant FrontEnd](docs/manual/fr-FR/extensions/compo-fe.md) simple
 - `/JSupport/composants/2-compoFE` : pour utiliser le composant FrontEnd avancé
 - `/JSupport/composants/3-compoBE` : pour utiliser le 1er composant BackEnd simple
 - `/JSupport/composants/4-compoBE` : pour utiliser le composant BackEnd avancé
