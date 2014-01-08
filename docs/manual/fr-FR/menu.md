@@ -1,4 +1,3 @@
-JSupport
-========
-
-Extensions Joomla 3.x liées au contenu du Livre de l'éditeur ENI
+- Extensions
+- [Composants Frontend](extensions/compo-fe.md)
+- [Composants Backend](extensions/compo-be.md)
