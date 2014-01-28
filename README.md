@@ -2,7 +2,7 @@
 Le projet *JSupport* est un lot d'extensions pour Joomla 3.
 Vous pouvez télécharger sur Github tous les sources des extensions présentées dans ce livre.
 
-Le code des extensions de ce référentiel inclues l'implémentation des classes principales du FrameworkJoomla Platform :
+Le code des extensions de ce référentiel inclues l'implémentation des classes principales du Framework Joomla Platform :
 ```php
 $app = JFactory::getApplication('site');
 
@@ -15,7 +15,7 @@ $asset    = 'com_content.article.' . $recordId;
 if ($user->authorise('core.edit', $asset))
 ... etc
 ```
-Afin de vous accompagner dasn le développement d'extensions pour Joomla.
+Afin de vous accompagner dasns le développement d'extensions pour Joomla.
 
 ### Liste des extensions de JSupport
 JSupport propose un Panel complet des extensions Joomla (composants, modules, plugins ...).
