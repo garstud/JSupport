@@ -1,20 +1,26 @@
 ### Contexte de JSupport
-Le projet *JSupport* est un lot d'extensions lié au livre xxxxxxxx aux éditions xxxxxx.
+Le projet *JSupport* est un lot d'extensions pour Joomla 3.
 Vous pouvez télécharger sur Github tous les sources des extensions présentées dans ce livre.
 
-Le code des extensions de ce référentiel inclues l'implémentation des classes principales du Joomla!Platform :
+Le code des extensions de ce référentiel inclues l'implémentation des classes principales du FrameworkJoomla Platform :
 ```php
-JFactory...
-JInput...
-JView...
+$app = JFactory::getApplication('site');
+
+JPluginHelper::importPlugin('system');
+$this->triggerEvent('onAfterRoute');
+
+$user     = JFactory::getUser();
+$userId   = $user->get('id');
+$asset    = 'com_content.article.' . $recordId;
+if ($user->authorise('core.edit', $asset))
 ... etc
 ```
-Afin de vous familiariser avec la méthode la plus propres pour développer des extensions pour Joomla.
+Afin de vous accompagner dasn le développement d'extensions pour Joomla.
 
 ### Liste des extensions de JSupport
 JSupport propose un Panel complet des extensions Joomla (composants, modules, plugins ...).
 
-Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extensions, puis dézippez le afin de ne re-zipper que chacun des sous-dossiers souhaités
+Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extensions, puis dézippez le afin de ne re-zipper que chacun des sous-dossiers souhaités.
 
 Option        | Description
 ------------- | ----------------
