@@ -31,8 +31,8 @@ ZIP           | tous les dossiers des extensions
 - `/JSupport/composants/1-compoFE` : pour utiliser le 1er [composant FrontEnd](docs/manual/fr-FR/extensions/compo-fe.md) simple
 - `/JSupport/composants/2-compoFE` : pour utiliser le composant FrontEnd avancé
 - `/JSupport/composants/3-compoFE` : pour utiliser le composant FrontEnd complet
-- `/JSupport/composants/3-compoBE` : pour utiliser le 1er composant BackEnd de liste simple
-- `/JSupport/composants/4-compoBE` : pour utiliser le composant BackEnd complet
+- `/JSupport/composants/4-compoBE` : pour utiliser le 1er composant BackEnd de liste simple
+- `/JSupport/composants/5-compoBE` : pour utiliser le composant BackEnd complet
 
 #### Modules
 - `/JSupport/modules/1-mod_simple` : pour utiliser le 1er module simple
