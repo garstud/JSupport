@@ -30,16 +30,18 @@ ZIP           | tous les dossiers des extensions
 #### Composants
 - `/JSupport/composants/1-compoFE` : pour utiliser le 1er [composant FrontEnd](docs/manual/fr-FR/extensions/compo-fe.md) simple
 - `/JSupport/composants/2-compoFE` : pour utiliser le composant FrontEnd avancé
-- `/JSupport/composants/3-compoBE` : pour utiliser le 1er composant BackEnd simple
-- `/JSupport/composants/4-compoBE` : pour utiliser le composant BackEnd avancé
+- `/JSupport/composants/3-compoFE` : pour utiliser le composant FrontEnd complet
+- `/JSupport/composants/3-compoBE` : pour utiliser le 1er composant BackEnd de liste simple
+- `/JSupport/composants/4-compoBE` : pour utiliser le composant BackEnd complet
 
 #### Modules
 - `/JSupport/modules/1-mod_simple` : pour utiliser le 1er module simple
 - `/JSupport/modules/2-mod_ticket` : pour utiliser le module d'affhage de "Mes tickets"
 
 #### Plugins
-- `/JSupport/plugins/1-plg_ticket` : pour utiliser un plugin d'affichage d'un ticket dans un article
-- `/JSupport/plugins/2-plg_ticketextended` : pour utiliser le plugin dédié a JSupport
+- `/JSupport/plugins/1-plg_content_ticket` : pour utiliser un plugin d'affichage d'un ticket dans un article
+- `/JSupport/plugins/2-plg_user_profileticket` : pour utiliser le plugin d'extension de profil utilisateur
+- `/JSupport/plugins/3-plg_support_ticket` : pour utiliser le plugin dédié a JSupport
 
 #### Applications autonomes
 - `/JSupport/apps/1-cli_tickets` : pour utiliser le script de commande en ligne
