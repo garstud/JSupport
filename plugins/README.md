@@ -14,4 +14,8 @@ L'espace `Plugins` est 3 Plugins tel que présenté dans le livre :
 Plugin de profil
 -----
 
-### Plugin JSupport
+### Contexte
+bla-bla
+
+### Capture
+![alt text](/docs/captures/plugin2.png "Plugin de profil")
