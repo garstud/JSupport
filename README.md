@@ -24,7 +24,7 @@ Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extension
 
 Option        | Description
 ------------- | ----------------
-`ZIP complet` | tous les dossiers des Extensions ci-dessous
+[`ZIP complet`](https://github.com/garstud/JSupport/archive/master.zip) | tous les dossiers des Extensions ci-dessous
 
 
 #### Composants : [`Frontend / Backend`](composants  "Espace des Composants")
