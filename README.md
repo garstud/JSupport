@@ -24,7 +24,7 @@ Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extension
 
 Option        | Description
 ------------- | ----------------
-[`ZIP complet`](/archive/master.zip)           | tous les dossiers des Extensions
+[`ZIP complet`] | tous les dossiers des Extensions
 
 
 #### Composants : [`Frontend / Backend`](composants  "Espace des Composants")
