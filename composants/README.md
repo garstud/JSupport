@@ -9,5 +9,5 @@ L'espace `Composants Frontend` est divisé en 3 étapes de conception tel que pr
 - `5` : ecran de création et d'édition d'un ticket en Backend
  
 
-
+... ou plutot proposer un seul espace avec des branches d'évolutions !
 
