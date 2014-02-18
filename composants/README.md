@@ -10,4 +10,5 @@ L'espace `Composants Frontend` est divisé en 3 étapes de conception tel que pr
  
 
 ... ou plutot proposer un seul espace avec des branches d'évolutions !
-
+- Master = le compo complet
+- une branche pour chacun des 5 espaces ! (peut-on avoir des branches en cascade ? bof)
