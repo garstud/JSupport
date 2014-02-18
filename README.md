@@ -39,9 +39,9 @@ ZIP           | tous les dossiers des extensions
 - `/JSupport/modules/2-mod_ticket` : pour utiliser le module d'affhage de "Mes tickets"
 
 #### Plugins : [`Plg`](plugins)
-- `/JSupport/plugins/1-plg_content_ticket` : pour utiliser un plugin d'affichage d'un ticket dans un article
-- `/JSupport/plugins/2-plg_user_profileticket` : pour utiliser le plugin d'extension de profil utilisateur
-- `/JSupport/plugins/3-plg_support_ticket` : pour utiliser le plugin dédié a JSupport
+- `/JSupport/plugins/1-plg_content_ticket` : pour utiliser un Plugin d'affichage d'un ticket dans un article
+- `/JSupport/plugins/2-plg_user_profileticket` : pour utiliser le Plugin d'extension de profil utilisateur
+- `/JSupport/plugins/3-plg_support_ticket` : pour utiliser le Plugin dédié à étendre le Composant JSupport
 
 #### Applications autonomes : [`CLI / WebApp`](apps)
 - `/JSupport/apps/1-cli_tickets` : pour utiliser le script de commande en ligne
