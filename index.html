@@ -31,10 +31,10 @@
           <h3>
 <a name="contexte-de-jsupport" class="anchor" href="#contexte-de-jsupport"><span class="octicon octicon-link"></span></a>Contexte de JSupport</h3>
 
-<p>Le projet <em>JSupport</em> est un lot d'extensions pour Joomla 3.
-Vous pouvez télécharger sur Github tous les sources des extensions présentées dans ce livre.</p>
+<p>Le projet <em>JSupport</em> est un lot d'Extensions pour Joomla 3.
+Vous pouvez télécharger sur GitHub tous les sources des Extensions présentées dans ce livre.</p>
 
-<p>Le code des extensions de ce référentiel inclues l'implémentation des classes principales du FrameworkJoomla Platform :</p>
+<p>Le code source des Extensions de ce référentiel inclut l'implémentation des classes principales du Framework Joomla Platform :</p>
 
 <div class="highlight highlight-php"><pre><span class="nv">$app</span> <span class="o">=</span> <span class="nx">JFactory</span><span class="o">::</span><span class="na">getApplication</span><span class="p">(</span><span class="s1">'site'</span><span class="p">);</span>
 
@@ -63,11 +63,12 @@ Vous pouvez télécharger sur Github tous les sources des extensions présentée
 <th>Description</th>
 </tr></thead>
 <tbody><tr>
-<td>ZIP</td>
-<td>tous les dossiers des extensions</td>
+<td><a href="https://github.com/garstud/JSupport/archive/master.zip"><code>ZIP complet</code></a></td>
+<td>tous les dossiers des Extensions ci-dessous</td>
 </tr></tbody>
 </table><h4>
-<a name="composants" class="anchor" href="#composants"><span class="octicon octicon-link"></span></a>Composants</h4>
+<a name="composants--frontend--backend" class="anchor" href="#composants--frontend--backend"><span class="octicon octicon-link"></span></a>Composants : <a href="composants" title="Espace des Composants"><code>Frontend / Backend</code></a>
+</h4>
 
 <ul>
 <li>
@@ -75,11 +76,14 @@ Vous pouvez télécharger sur Github tous les sources des extensions présentée
 <li>
 <code>/JSupport/composants/2-compoFE</code> : pour utiliser le composant FrontEnd avancé</li>
 <li>
-<code>/JSupport/composants/3-compoBE</code> : pour utiliser le 1er composant BackEnd simple</li>
+<code>/JSupport/composants/3-compoFE</code> : pour utiliser le composant FrontEnd complet</li>
 <li>
-<code>/JSupport/composants/4-compoBE</code> : pour utiliser le composant BackEnd avancé</li>
+<code>/JSupport/composants/4-compoBE</code> : pour utiliser le 1er composant BackEnd de liste simple</li>
+<li>
+<code>/JSupport/composants/5-compoBE</code> : pour utiliser le composant BackEnd complet</li>
 </ul><h4>
-<a name="modules" class="anchor" href="#modules"><span class="octicon octicon-link"></span></a>Modules</h4>
+<a name="modules--mod" class="anchor" href="#modules--mod"><span class="octicon octicon-link"></span></a>Modules : <a href="modules"><code>Mod</code></a>
+</h4>
 
 <ul>
 <li>
@@ -87,15 +91,19 @@ Vous pouvez télécharger sur Github tous les sources des extensions présentée
 <li>
 <code>/JSupport/modules/2-mod_ticket</code> : pour utiliser le module d'affhage de "Mes tickets"</li>
 </ul><h4>
-<a name="plugins" class="anchor" href="#plugins"><span class="octicon octicon-link"></span></a>Plugins</h4>
+<a name="plugins--plg" class="anchor" href="#plugins--plg"><span class="octicon octicon-link"></span></a>Plugins : <a href="plugins"><code>Plg</code></a>
+</h4>
 
 <ul>
 <li>
-<code>/JSupport/plugins/1-plg_ticket</code> : pour utiliser un plugin d'affichage d'un ticket dans un article</li>
+<code>/JSupport/plugins/1-plg_content_ticket</code> : pour utiliser un Plugin d'affichage d'un ticket dans un article</li>
 <li>
-<code>/JSupport/plugins/2-plg_ticketextended</code> : pour utiliser le plugin dédié a JSupport</li>
+<code>/JSupport/plugins/2-plg_user_profileticket</code> : pour utiliser le Plugin d'extension de profil utilisateur</li>
+<li>
+<code>/JSupport/plugins/3-plg_support_ticket</code> : pour utiliser le Plugin dédié à étendre le Composant JSupport</li>
 </ul><h4>
-<a name="applications-autonomes" class="anchor" href="#applications-autonomes"><span class="octicon octicon-link"></span></a>Applications autonomes</h4>
+<a name="applications-autonomes--cli--webapp" class="anchor" href="#applications-autonomes--cli--webapp"><span class="octicon octicon-link"></span></a>Applications autonomes : <a href="apps"><code>CLI / WebApp</code></a>
+</h4>
 
 <ul>
 <li>
