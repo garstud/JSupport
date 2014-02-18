@@ -1,8 +1,8 @@
 ### Contexte de JSupport
-Le projet *JSupport* est un lot d'extension pour Joomla 3.
-Vous pouvez télécharger sur le présent repo Github tous les codes sources des extensions présentées dans ce livre.
+Le projet *JSupport* est un lot d'Extensions pour Joomla 3.
+Vous pouvez télécharger sur GitHub tous les sources des Extensions présentées dans ce livre.
 
-Le code des extensions de ce référentiel inclus l'implémentation des classes principales du Framework Joomla Platform :
+Le code source des Extensions de ce référentiel inclut l'implémentation des classes principales du Framework Joomla Platform :
 ```php
 $app = JFactory::getApplication('site');
 
