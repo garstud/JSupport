@@ -27,7 +27,7 @@ Option        | Description
 ZIP           | tous les dossiers des extensions
 
 
-#### Composants `[FE]`(composants/README.md) / `[BE]`(composants)
+#### Composants `[FE](composants/README.md)` / `[BE](composants)`
 - `/JSupport/composants/1-compoFE` : pour utiliser le 1er [composant FrontEnd](docs/manual/fr-FR/extensions/compo-fe.md) simple
 - `/JSupport/composants/2-compoFE` : pour utiliser le composant FrontEnd avancé
 - `/JSupport/composants/3-compoFE` : pour utiliser le composant FrontEnd complet
