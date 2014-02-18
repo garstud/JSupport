@@ -9,7 +9,7 @@ L'espace `Plugins` est 3 Plugins tel que présenté dans le livre :
 ## Plugin de contenu
 
 + ajouter une capture du rendu de chaque Plugin
-![alt text](/docs/captures/plugin1.png "Plugin de contenu")
+![alt text](/docs/captures/11EP06.png "Plugin de contenu")
 
 Plugin de profil
 -----
@@ -18,4 +18,4 @@ Plugin de profil
 bla-bla
 
 ### Capture
-![alt text](/docs/captures/plugin2.png "Plugin de profil")
+![alt text](/docs/captures/11EP09.png "Plugin de profil")
