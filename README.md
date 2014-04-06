@@ -1,6 +1,6 @@
 ### Kit de développement pour Joomla
 Le projet *JSupport* est un lot d'Extensions pour Joomla 3.
-Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions présentées dans ce livre.
+Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions présentées dans le livre 'xxxxxxxx'.
 
 Les codes sources des Extensions de ce référentiel incluent l'implémentation des classes principales du Framework Joomla Platform, comme par exemple :
 ```php
@@ -15,13 +15,13 @@ $asset    = 'com_content.article.' . $recordId;
 if ($user->authorise('core.edit', $asset))
 ... etc
 ```
-Pour obtenir des explications sur ces implémentations, veuillez vous référer au livre 'xxxxxxxxx'.
+Pour obtenir des explications sur ces implémentations, veuillez vous référer aux chapitres correpondants du livre aux éditions ENI.
 
 
 ### Liste des extensions de JSupport
-JSupport propose un panel complet des extensions Joomla à conncevoir soi-même (composants, modules, plugins ...).
+JSupport propose un panel très complet des extensions Joomla à concevoir soi-même (composants, modules, plugins ...).
 
-Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extensions, puis dézippez le afin d'accèder aux sources des extensions souhaités.
+Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extensions, puis dézippez le afin d'accèder aux sources des extensions souhaitées.
 
 Option        | Description
 ------------- | ----------------
@@ -52,4 +52,6 @@ Option        | Description
 
 ### Auteur
 Contactez Marc STUDER (@garstud) ou sur http://www.garstud.com/nous-contacter.html .
-Ou retrouvez l'espace dédié à ce livre sur http://www.editions-eni.fr et http://xxx.garstud.com
+Ou retrouvez l'espace dédié à ce livre sur :
+- http://www.editions-eni.fr/xxxxxxxxxx 
+- ou http://xxx.garstud.com
