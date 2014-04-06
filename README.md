@@ -1,8 +1,8 @@
-### Contexte de JSupport
+### Kit de développement pour Joomla
 Le projet *JSupport* est un lot d'Extensions pour Joomla 3.
-Vous pouvez télécharger sur GitHub tous les sources des Extensions présentées dans ce livre.
+Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions présentées dans ce livre.
 
-Le code source des Extensions de ce référentiel inclut l'implémentation des classes principales du Framework Joomla Platform :
+Les codes sources des Extensions de ce référentiel incluent l'implémentation des classes principales du Framework Joomla Platform, comme par exemple :
 ```php
 $app = JFactory::getApplication('site');
 
@@ -15,16 +15,18 @@ $asset    = 'com_content.article.' . $recordId;
 if ($user->authorise('core.edit', $asset))
 ... etc
 ```
-Afin de vous accompagner dans le développement d'extensions pour Joomla.
+Pour obtenir des explications sur ces implémentations, veuillez vous référer au livre 'xxxxxxxxx'.
+
 
 ### Liste des extensions de JSupport
-JSupport propose un Panel complet des extensions Joomla (composants, modules, plugins ...).
+JSupport propose un panel complet des extensions Joomla à conncevoir soi-même (composants, modules, plugins ...).
 
-Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extensions, puis dézippez le afin de ne re-zipper que chacun des sous-dossiers souhaités.
+Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extensions, puis dézippez le afin d'accèder aux sources des extensions souhaités.
 
 Option        | Description
 ------------- | ----------------
 [`ZIP complet`](https://github.com/garstud/JSupport/archive/master.zip) | tous les dossiers des Extensions ci-dessous
+
 
 
 #### Composants : [`Frontend / Backend`](https://github.com/garstud/JSupport/tree/master/composants "Espace des Composants")
@@ -50,4 +52,4 @@ Option        | Description
 
 ### Auteur
 Contactez Marc STUDER (@garstud) ou sur http://www.garstud.com/nous-contacter.html .
-Ou retrouvez l'espace dédié à ce livre sur http://xxx.garstud.com
+Ou retrouvez l'espace dédié à ce livre sur http://www.editions-eni.fr et http://xxx.garstud.com
