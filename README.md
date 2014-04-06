@@ -1,3 +1,5 @@
+(espace GitHub en cours de conception. Parution du livre, aux Editions ENI, prévu courant mai 2014)
+
 ### Kit de développement pour Joomla
 Le projet *JSupport* est un lot d'Extensions pour Joomla 3.
 Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions présentées dans le livre 'xxxxxxxx'.
