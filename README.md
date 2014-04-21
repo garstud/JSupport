@@ -53,6 +53,8 @@ Option        | Description
 
 
 ### Auteur
-Contactez Marc STUDER (@garstud) ou sur http://www.garstud.com/nous-contacter.html . Retrouvez l'espace dédié à ce livre sur :
+Contactez Marc STUDER (@garstud) ou sur http://www.garstud.com/nous-contacter.html . 
+
+Retrouvez l'espace dédié à ce livre sur :
 - [http://www.editions-eni.fr](http://www.editions-eni.fr/livres/joomla-developpez-des-extensions-pour-joomla-avec-travaux-pratiques-et-code-source-php-telechargeable/.278eab18d9e01e27e67002339a1c0e4a.html)
 - ou http://xxx.garstud.com
