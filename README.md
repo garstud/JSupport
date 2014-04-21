@@ -2,7 +2,7 @@
 
 ### Kit de développement pour Joomla
 Le projet *JSupport* est un lot d'Extensions pour Joomla 3.
-Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions présentées dans le livre 'xxxxxxxx'.
+Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions présentées dans le livre 'Joomla! - Développez des extensions PHP pour Joomla!' aux Editions ENI.
 
 Les codes sources des Extensions de ce référentiel incluent l'implémentation des classes principales du Framework Joomla Platform, comme par exemple :
 ```php
