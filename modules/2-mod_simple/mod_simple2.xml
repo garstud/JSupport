@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>mod_simple2</name>
+	<author>Marc STUDER</author>
+	<creationDate>Sept 2012</creationDate>
+	<authorEmail>nom@domaine.ext</authorEmail>
+	<authorUrl>www.editions-eni.fr</authorUrl>
+	<version>1.0.0</version>
+	<description>Mon 1er module</description>
+	<files>
+		<filename module="mod_simple2">mod_simple2.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_simple2.xml</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="count" type="text"
+					default="5"	label="Nb articles"
+					description="Définir le nombre d'articles à afficher" />
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+					name="list_count" type="list"
+					default="" label="Nb articles"
+					description="Définir le nombre d'articles à afficher">
+					<option	value="1">1</option>
+					<option	value="3">3</option>
+					<option	value="5">5</option>
+				</field>
+				<field
+					name="layout" type="modulelayout"
+					label="Type de mise en page"
+					description="Utiliser la mise en page souhaitée" />
+				<field
+					name="moduleclass_sfx" type="text"
+					label="Suffixe de classe CSS"
+					description="Suffixe à ajouter à la classe CSS du module pour le personnaliser" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
