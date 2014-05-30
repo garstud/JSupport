@@ -1,4 +1,5 @@
-(espace GitHub en cours de conception. Parution du livre, aux Editions ENI, prévu courant mai 2014)
+(espace GitHub en cours de conception)
+Le livre associé à cet espace GitHub est paru, aux [éditions ENI](http://www.editions-eni.fr/livres/joomla-developpez-des-extensions-pour-joomla-avec-travaux-pratiques-et-code-source-php-telechargeable/.278eab18d9e01e27e67002339a1c0e4a.html), mi-mai 2014)
 
 ### Kit de développement pour Joomla
 Le projet *JSupport* est un lot d'Extensions pour Joomla 3.
@@ -57,4 +58,4 @@ Contactez Marc STUDER (@garstud) ou sur http://www.garstud.com/nous-contacter.ht
 
 Retrouvez l'espace dédié à ce livre sur :
 - [http://www.editions-eni.fr](http://www.editions-eni.fr/livres/joomla-developpez-des-extensions-pour-joomla-avec-travaux-pratiques-et-code-source-php-telechargeable/.278eab18d9e01e27e67002339a1c0e4a.html)
-- ou http://xxx.garstud.com
+- ou http://eni.garstud.com
