@@ -4,7 +4,6 @@ defined('_JEXEC') or die;
 $uriCompoDetail = JURI::base(true)."/index.php?option=com_support&view=ticket&id=";
 
 // recupere les infos de pagination et d'ordre
-//$listLimit	= $this->escape($this->state->get('list.limit'));
 $listOrder	= $this->escape($this->state->get('list.ordering'));
 $listDirn	= $this->escape($this->state->get('list.direction'));
 ?>

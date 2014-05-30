@@ -45,21 +45,17 @@ class SupportModelTickets extends JModelList
 	 */
 	protected function _getListQuery()
 	{
-		//$user	= JFactory::getUser();
 		// Create a new query object.
 		$query	= $this->_db->getQuery(true);
 
 		// Select required fields from the table.
 		$query->select('*');
 		$query->from($this->_db->quoteName('#__ticket'));
-		//$query->where('published=1 AND created_by='.$user->id);
 
 		// tri des colonnes
 		$orderCol = $this->getState('list.ordering', 'id');
 		$orderDirn = $this->getState('list.direction', 'ASC');
 		$query->order($this->_db->escape($orderCol.' '.$orderDirn));
-//JFactory::getApplication()->enqueueMessage("model::listQuery  ORDER BY ".$this->_db->escape($orderCol.' '.$orderDirn), 'info');     
-//JFactory::getApplication()->enqueueMessage("model::listQuery  QUERY : ".$query, 'info');     
 
 		return $query;
 	}

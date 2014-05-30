@@ -19,6 +19,3 @@ JHtml::_('behavior.framework'); // javascript Joomla object for grid.sort !
 		<?php echo $this->pagination->getResultsCounter(); ?>
 	</p>
 </div>
-
-
-<?php //echo $this->pagination->getListFooter(); ?>
