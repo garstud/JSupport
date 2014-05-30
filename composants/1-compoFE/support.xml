@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="3.0" method="upgrade">
- 
 	<name>Support</name>
-	<creationDate>Septembre 2013</creationDate>
+	<creationDate>Novembre 2013</creationDate>
 	<author>Marc STUDER</author>
 	<authorEmail>mon_mail@editions-eni.fr</authorEmail>
 	<authorUrl>http://www.editions-eni.fr</authorUrl>
@@ -21,13 +20,7 @@
             <file driver="mysql" charset="utf8">sql/uninstall.sql</file>
         </sql>
     </uninstall>
-	<update> 
-		<schemas>
-			<schemapath type="mysql">sql/updates/mysql</schemapath>
-		</schemas>
-	</update>
 
-	<!-- Site Main File Copy Section -->
 	<files folder="site">
 		<filename>index.html</filename>
 		<filename>support.php</filename>
@@ -36,5 +29,9 @@
 		<folder>models</folder>
 	</files>
 
-	<administration />
+	<administration>
+		<files folder="admin">
+				<folder>sql</folder>
+		</files>                
+	</administration>
 </extension>

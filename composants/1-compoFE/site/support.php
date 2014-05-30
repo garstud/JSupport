@@ -1,14 +1,13 @@
 <?php
-// No direct access to this file
 defined('_JEXEC') or die('Restricted access');
  
-// Get an instance of the controller prefixed by Compo name
-$controller = JControllerLegacy::getInstance('Support');
-
-// Perform the Request task
+// recupere une instance du controller prefixé par le nom du composant
+$controller = JControllerLegacy::getInstance('support');
+ 
+// execute la tache demandée
 $input = JFactory::getApplication()->input;
 $task = $input->get('task', 'cmd');
 $controller->execute($task);
  
-// Redirect if set by the controller
+// execute la redirection prévue par le controleur
 $controller->redirect();
