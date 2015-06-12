@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,7 +21,7 @@
       <div class="inner">
         <h1>Développez des extensions en PHP pour Joomla!</h1>
         <h2>Pack complet d&#39;extensions &#39;JSupport&#39; pour apprendre à développer avec Joomla 3</h2>
-        <a href="https://github.com/garstud/JSupport" class="button"><small>View project on</small>GitHub</a>
+        <a href="https://github.com/garstud/JSupport" class="button"><small>View project on</small> GitHub</a>
       </div>
     </header>
 
@@ -31,46 +31,63 @@
           <p>(espace GitHub en cours de conception)
 Le livre associé à cet espace GitHub est paru, aux <a href="http://www.editions-eni.fr/livres/joomla-developpez-des-extensions-pour-joomla-avec-travaux-pratiques-et-code-source-php-telechargeable/.278eab18d9e01e27e67002339a1c0e4a.html">éditions ENI</a>, mi-mai 2014.</p>
 
+<p>Vous pouvez télécharger les scripts pré-packagés du livre directement sur le site d'ENI :</p>
+
+<table>
+<thead>
+<tr>
+<th><a href="http://www.editions-eni.fr/livres/joomla-developpez-des-extensions-pour-joomla-avec-travaux-pratiques-et-code-source-php-telechargeable/.278eab18d9e01e27e67002339a1c0e4a.html#TabStrip_infos"><code>Cliquez pour télécharger tous les scripts du livre</code></a></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
 <h3>
-<a name="kit-de-d%C3%A9veloppement-pour-joomla" class="anchor" href="#kit-de-d%C3%A9veloppement-pour-joomla"><span class="octicon octicon-link"></span></a>Kit de développement pour Joomla</h3>
+<a id="kit-de-développement-pour-joomla" class="anchor" href="#kit-de-d%C3%A9veloppement-pour-joomla" aria-hidden="true"><span class="octicon octicon-link"></span></a>Kit de développement pour Joomla</h3>
 
 <p>Le projet <em>JSupport</em> est un lot d'Extensions pour Joomla 3.
 Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions présentées dans le livre 'Joomla! - Développez des extensions PHP pour Joomla!' aux Editions ENI.</p>
 
 <p>Les codes sources des Extensions de ce référentiel incluent l'implémentation des classes principales du Framework Joomla Platform, comme par exemple :</p>
 
-<div class="highlight highlight-php"><pre><span class="nv">$app</span> <span class="o">=</span> <span class="nx">JFactory</span><span class="o">::</span><span class="na">getApplication</span><span class="p">(</span><span class="s1">'site'</span><span class="p">);</span>
-
-<span class="nx">JPluginHelper</span><span class="o">::</span><span class="na">importPlugin</span><span class="p">(</span><span class="s1">'system'</span><span class="p">);</span>
-<span class="nv">$this</span><span class="o">-&gt;</span><span class="na">triggerEvent</span><span class="p">(</span><span class="s1">'onAfterRoute'</span><span class="p">);</span>
-
-<span class="nv">$user</span>     <span class="o">=</span> <span class="nx">JFactory</span><span class="o">::</span><span class="na">getUser</span><span class="p">();</span>
-<span class="nv">$userId</span>   <span class="o">=</span> <span class="nv">$user</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="s1">'id'</span><span class="p">);</span>
-<span class="nv">$asset</span>    <span class="o">=</span> <span class="s1">'com_content.article.'</span> <span class="o">.</span> <span class="nv">$recordId</span><span class="p">;</span>
-<span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="o">-&gt;</span><span class="na">authorise</span><span class="p">(</span><span class="s1">'core.edit'</span><span class="p">,</span> <span class="nv">$asset</span><span class="p">))</span>
-<span class="o">...</span> <span class="nx">etc</span>
-</pre></div>
+<div class="highlight highlight-php"><pre><span class="pl-s1"><span class="pl-smi">$app</span> <span class="pl-k">=</span> <span class="pl-c1">JFactory</span><span class="pl-k">::</span>getApplication(<span class="pl-s"><span class="pl-pds">'</span>site<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c1">JPluginHelper</span><span class="pl-k">::</span>importPlugin(<span class="pl-s"><span class="pl-pds">'</span>system<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>triggerEvent(<span class="pl-s"><span class="pl-pds">'</span>onAfterRoute<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$user</span>     <span class="pl-k">=</span> <span class="pl-c1">JFactory</span><span class="pl-k">::</span>getUser();</span>
+<span class="pl-s1"><span class="pl-smi">$userId</span>   <span class="pl-k">=</span> <span class="pl-smi">$user</span><span class="pl-k">-&gt;</span>get(<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$asset</span>    <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>com_content.article.<span class="pl-pds">'</span></span> <span class="pl-k">.</span> <span class="pl-smi">$recordId</span>;</span>
+<span class="pl-s1"><span class="pl-k">if</span> (<span class="pl-smi">$user</span><span class="pl-k">-&gt;</span>authorise(<span class="pl-s"><span class="pl-pds">'</span>core.edit<span class="pl-pds">'</span></span>, <span class="pl-smi">$asset</span>))</span>
+<span class="pl-s1"><span class="pl-k">...</span> <span class="pl-c1">etc</span></span></pre></div>
 
 <p>Pour obtenir des explications sur ces implémentations, veuillez vous référer aux chapitres correpondants du livre aux éditions ENI.</p>
 
 <h3>
-<a name="liste-des-extensions-de-jsupport" class="anchor" href="#liste-des-extensions-de-jsupport"><span class="octicon octicon-link"></span></a>Liste des extensions de JSupport</h3>
+<a id="liste-des-extensions-de-jsupport" class="anchor" href="#liste-des-extensions-de-jsupport" aria-hidden="true"><span class="octicon octicon-link"></span></a>Liste des extensions de JSupport</h3>
 
 <p>JSupport propose un panel très complet des extensions Joomla à concevoir soi-même (composants, modules, plugins ...).</p>
 
 <p>Pour utiliser ces extensions, téléchargez le ZIP de la totalité des extensions, puis dézippez le afin d'accèder aux sources des extensions souhaitées.</p>
 
 <table>
-<thead><tr>
+<thead>
+<tr>
 <th>Option</th>
 <th>Description</th>
-</tr></thead>
-<tbody><tr>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td><a href="https://github.com/garstud/JSupport/archive/master.zip"><code>ZIP complet</code></a></td>
 <td>tous les dossiers des Extensions ci-dessous</td>
-</tr></tbody>
-</table><h4>
-<a name="composants--frontend--backend" class="anchor" href="#composants--frontend--backend"><span class="octicon octicon-link"></span></a>Composants : <a href="https://github.com/garstud/JSupport/tree/master/composants" title="Espace des Composants"><code>Frontend / Backend</code></a>
+</tr>
+</tbody>
+</table>
+
+<h4>
+<a id="composants--frontend--backend" class="anchor" href="#composants--frontend--backend" aria-hidden="true"><span class="octicon octicon-link"></span></a>Composants : <a href="https://github.com/garstud/JSupport/tree/master/composants" title="Espace des Composants"><code>Frontend / Backend</code></a>
 </h4>
 
 <ul>
@@ -84,8 +101,10 @@ Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions 
 <code>/JSupport/composants/4-compoBE</code> : pour utiliser le 1er composant BackEnd de liste simple</li>
 <li>
 <code>/JSupport/composants/5-compoBE</code> : pour utiliser le composant BackEnd complet</li>
-</ul><h4>
-<a name="modules--mod" class="anchor" href="#modules--mod"><span class="octicon octicon-link"></span></a>Modules : <a href="https://github.com/garstud/JSupport/tree/master/modules"><code>Mod</code></a>
+</ul>
+
+<h4>
+<a id="modules--mod" class="anchor" href="#modules--mod" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modules : <a href="https://github.com/garstud/JSupport/tree/master/modules"><code>Mod</code></a>
 </h4>
 
 <ul>
@@ -93,8 +112,10 @@ Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions 
 <code>/JSupport/modules/1-mod_simple</code> : pour utiliser le 1er module simple</li>
 <li>
 <code>/JSupport/modules/2-mod_ticket</code> : pour utiliser le module d'affhage de "Mes tickets"</li>
-</ul><h4>
-<a name="plugins--plg" class="anchor" href="#plugins--plg"><span class="octicon octicon-link"></span></a>Plugins : <a href="https://github.com/garstud/JSupport/tree/master/plugins"><code>Plg</code></a>
+</ul>
+
+<h4>
+<a id="plugins--plg" class="anchor" href="#plugins--plg" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plugins : <a href="https://github.com/garstud/JSupport/tree/master/plugins"><code>Plg</code></a>
 </h4>
 
 <ul>
@@ -104,8 +125,10 @@ Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions 
 <code>/JSupport/plugins/2-plg_user_profileticket</code> : pour utiliser le Plugin d'extension de profil utilisateur</li>
 <li>
 <code>/JSupport/plugins/3-plg_support_ticket</code> : pour utiliser le Plugin dédié à étendre le Composant JSupport</li>
-</ul><h4>
-<a name="applications-autonomes--cli--webapp" class="anchor" href="#applications-autonomes--cli--webapp"><span class="octicon octicon-link"></span></a>Applications autonomes : <a href="https://github.com/garstud/JSupport/tree/master/apps"><code>CLI / WebApp</code></a>
+</ul>
+
+<h4>
+<a id="applications-autonomes--cli--webapp" class="anchor" href="#applications-autonomes--cli--webapp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Applications autonomes : <a href="https://github.com/garstud/JSupport/tree/master/apps"><code>CLI / WebApp</code></a>
 </h4>
 
 <ul>
@@ -113,8 +136,10 @@ Vous pouvez télécharger sur cet espace GitHub tous les sources des Extensions 
 <code>/JSupport/apps/1-cli_tickets</code> : pour utiliser le script de commande en ligne</li>
 <li>
 <code>/JSupport/apps/2-web_tickets</code> : pour utiliser l'application Web autonome</li>
-</ul><h3>
-<a name="auteur" class="anchor" href="#auteur"><span class="octicon octicon-link"></span></a>Auteur</h3>
+</ul>
+
+<h3>
+<a id="auteur" class="anchor" href="#auteur" aria-hidden="true"><span class="octicon octicon-link"></span></a>Auteur</h3>
 
 <p>Contactez Marc STUDER (<a href="https://github.com/garstud" class="user-mention">@garstud</a>) ou sur <a href="http://www.garstud.com/nous-contacter.html">http://www.garstud.com/nous-contacter.html</a> . </p>
 
