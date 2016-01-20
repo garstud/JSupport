@@ -1,4 +1,3 @@
-(espace GitHub en cours de conception)
 Le livre associé à cet espace GitHub est paru, aux [éditions ENI](http://www.editions-eni.fr/livres/joomla-developpez-des-extensions-pour-joomla-avec-travaux-pratiques-et-code-source-php-telechargeable/.278eab18d9e01e27e67002339a1c0e4a.html), mi-mai 2014.
 
 Vous pouvez télécharger les scripts pré-packagés du livre directement sur le site d'ENI :
